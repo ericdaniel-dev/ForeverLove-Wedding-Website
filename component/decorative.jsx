@@ -1,4 +1,4 @@
-import Decor1 from '../src/assets/wedding decoration.jpg';
+import Decor1 from '../src/assets/wedding decoration.webp';
 
 function Decorative(){
 	return(
@@ -6,7 +6,7 @@ function Decorative(){
 		  <h3 className="text-xl text-center underline underline-offset-4">ForeverLove Decoration: Elevate Your Wedding with Timeless Elegance</h3>
 		  <div id="decorBox" className="flex flex-col w-full items-center md:flex-row-reverse">
 		    <div id="sampledecor" className="h-96 w-full md:w-1/3">
-		    	<img src={Decor1} className="skeleton w-full h-full object-contain" alt="Wedding decorations"/>
+		    	<img loading="lazy" src={Decor1} className="w-full h-full object-contain" alt="Wedding decorations"/>
 		    </div>
 		    <div id="descdecor" className="w-full md:w-2/3 p-4">
 		      <p>

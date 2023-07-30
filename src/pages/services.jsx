@@ -1,13 +1,14 @@
+import React from 'react';
 import Photography from '../../component/photography.jsx';
 import Decorative from '../../component/decorative.jsx';
 
 function ServicesPage(){
 	return(
-		<div id="servicespage" className="flex flex-col w-full gap-5 p-2 overflow-auto">
+		<section id="servicespage" className="flex flex-col w-full gap-10 p-2 overflow-auto">
 			<Photography/>
 			<Decorative/>
-		</div>
+		</section>
 		);
 }
 
-export default ServicesPage;
+export default React.memo(ServicesPage);
