@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 function Footer(){
 	return(
 		<footer className="w-full h-auto border-2 border-black flex flex-col items-center p-2">
-			<div id="footerBox" className="w-full h-auto flex gap-10 flex-col md:flex-row">
+			<div id="footerBox" className="w-full h-auto flex gap-10 p-2 flex-col md:flex-row">
 				<div id="contactinfo" className="w-[90vw] md:w-1/3">
 					<h5 className="text-lg underline">Contact Information:</h5>
 						<ul>
@@ -13,10 +13,10 @@ function Footer(){
 							<li>Website: www.foreverlove.com</li>
 						</ul>						
 					<h5 className="text-lg underline">Follow Us on Social Media:</h5>
-						<ul className="text-sm">
-							<li>Facebook: www.facebook.com/foreverlove</li>
-							<li>Instagram: www.instagram.com/foreverloveweddings</li>
-							<li>Twitter: www.twitter.com/foreverloveevents</li>
+						<ul>
+							<li>Facebook: @foreverlove</li>
+							<li>Instagram: @foreverloveweddings</li>
+							<li>Twitter: @foreverloveevents</li>
 						</ul>
 				</div>
 				<div id="sitemap" className="w-full md:w-1/3">
@@ -38,7 +38,7 @@ function Footer(){
 				</div>
 			</div>
 			<div id="copyright">
-				<p>Copyright @ 2023 - ForeverLove Wedding Agencies</p>
+				<p className="text-center">Copyright @ 2023 - ForeverLove Wedding Agencies</p>
 			</div>
 		</footer>
 		);

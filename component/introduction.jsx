@@ -3,10 +3,10 @@ function Introduction(){
 		<section id="introduction" className="border-2 border-black p-2">
 			<div id="introductionBox" className="flex flex-col md:flex-row h-[400px] items-center">
 				<div id="slogan" className="flex flex-col items-center justify-center w-full md:w-1/2">
-					<h2 className="text-xl">
+					<h2 className="text-xl text-center">
 						Introducing ForeverLove
 					</h2> 
-					<p className="text-lg">
+					<p className="text-lg text-center">
 						Where Timeless Love Stories Begin
 					</p>
 				</div>

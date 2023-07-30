@@ -5,6 +5,7 @@ import App from './App.jsx';
 import './App.css';
 import HomePage from './pages/homepage.jsx';
 import ServicePage from './pages/services.jsx';
+import PricingListPage from './pages/pricinglistpage.jsx';
 import AboutUsPage from './pages/aboutuspage.jsx';
 import ContactPage from './pages/contactpage.jsx';
 import NotFound from './pages/404.jsx';
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
   {
     path: '/service',
     element: <App pages={<ServicePage/>}/>
+  },
+  {
+    path: '/pricing',
+    element: <App pages={<PricingListPage/>}/>
   },
   {
     path: '/aboutus',

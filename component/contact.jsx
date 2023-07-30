@@ -1,6 +1,6 @@
 function Contact(){
 	return(
-		<section id="contactBox" className="p-5">
+		<section id="contactBox" className="p-3 w-full h-auto">
 			<div id="contact" className="flex flex-col gap-5">
 			<div>
 				<h3 className="text-xl">Contact Us!</h3>
@@ -27,9 +27,9 @@ function Contact(){
 				latest wedding inspirations, tips, and real wedding stories 
 				by following us on our social media channels.
 					<ul className="text-base">
-						<li>Facebook: www.facebook.com/foreverlove</li>
-						<li>Instagram: www.instagram.com/foreverloveweddings</li>
-						<li>Twitter: www.twitter.com/foreverloveevents</li>
+						<li>Facebook: @foreverlove</li>
+						<li>Instagram: @foreverloveweddings</li>
+						<li>Twitter: @foreverloveevents</li>
 					</ul>
 				</span>
 			</div>

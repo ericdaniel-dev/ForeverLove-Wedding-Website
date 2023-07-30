@@ -11,7 +11,7 @@ function App(props) {
         <Header></Header>
         <div id="celebratingBox">
         </div>
-        <main className="w-full h-auto">
+        <main className="w-full h-auto flex items-center justify-center">
           {props.pages}
         </main>
         <Footer></Footer>
