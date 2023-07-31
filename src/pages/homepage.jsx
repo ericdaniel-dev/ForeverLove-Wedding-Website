@@ -5,7 +5,7 @@ import OurServices from '../../component/our-services.jsx';
 
 function HomePage(){
 	return(
-		<section id="homepage" className="flex flex-col gap-2 w-full h-auto p-2 border-2">
+		<section id="homepage" className="flex flex-col gap-10 w-full h-auto p-1">
 			<Introduction/>
 			<AboutUsShort/>
 			<OurServices/>

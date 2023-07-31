@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 function Footer(){
 	return(
-		<footer className="w-full h-auto border-2 border-black flex flex-col items-center p-2">
+		<footer className="w-full h-auto bg-rose text-white flex flex-col items-center p-2">
 			<div id="footerBox" className="w-full h-auto flex gap-10 p-2 flex-col md:flex-row">
 				<div id="contactinfo" className="w-[90vw] md:w-1/3">
 					<h5 className="text-lg underline">Contact Information:</h5>
@@ -33,7 +33,7 @@ function Footer(){
 					<h5 className="text-lg underline">Subscribe for newsletter</h5>
 					<form method="" action="" className="flex flex-col md:flex-row gap-3">
 						<input type="text" className="rounded-lg border-2 border-gray-600 px-5 py-3" name="emailsubs" id="emailsubs" placeholder="email@gmail.com" autoComplete="off"/>
-						<button className="bg-gray-300 px-5 py-3 rounded-lg">Subscribe</button>
+						<button className="bg-black px-5 py-3 rounded-lg">Subscribe</button>
 					</form>
 				</div>
 			</div>

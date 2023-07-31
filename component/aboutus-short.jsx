@@ -1,6 +1,6 @@
 function AboutUsShort(){
 	return(
-		<section id="aboutusshort" className="w-full h-auto border-2 border-black p-2">
+		<section id="aboutusshort" className="w-full h-auto p-2">
 			<div id="aboutusshortBox" className="flex flex-col gap-1 mx-auto w-full md:w-1/2">
 				<h3 className="text-xl text-center underline underline-offset-4">About Us</h3>
 				<p>

@@ -7,10 +7,8 @@ import Footer from '../component/footer.jsx';
 function App(props) {
   return (
     <>
-      <div id="container" className="w-full h-auto flex flex-col gap-2">
+      <div id="container" className="w-full h-auto flex flex-col gap-5 bg-gradient-to-r from-strongpink via-pinkrose to-pinkwhite text-gray-800">
         <Header></Header>
-        <div id="celebratingBox">
-        </div>
         <main className="w-full h-auto flex items-center justify-center">
           {props.pages}
         </main>
